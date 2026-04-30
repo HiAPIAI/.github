@@ -1,8 +1,8 @@
 # HiAPI
 
-**One API for AI image, video, music, and text models.**
+**One API, all AI models.**
 
-HiAPI is an AI API platform built for developers. Use one API key to access image generation, video generation, music generation, text models, and AI Agent tools.
+HiAPI is an AI API platform built for developers. Images, video, music, and text, all with one key.
 
 [Website](https://www.hiapi.ai) · [Get API Key](https://www.hiapi.ai/en/register) · [Pricing](https://www.hiapi.ai/en/pricing) · [Docs](https://docs.hiapi.ai)
 
@@ -74,11 +74,11 @@ Remote MCP configuration shape:
 
 ## 中文
 
-**一个 API，调用图像、视频、音乐和文本模型。**
+**一个 API，所有 AI 模型。**
 
-HiAPI 是为开发者打造的 AI API 平台。你可以用一个 API Key 接入图像生成、视频生成、音乐生成、文本模型和 AI Agent 工具。
+HiAPI 是为开发者打造的 AI API 平台。图像、视频、音乐和文本，一个密钥全搞定。
 
-[官网](https://www.hiapi.ai/zh) · [获取 API Key](https://www.hiapi.ai/zh/register) · [查看价格](https://www.hiapi.ai/zh/pricing) · [文档](https://docs.hiapi.ai)
+[官网](https://www.hiapi.ai/zh) · [免费获取 API Key](https://www.hiapi.ai/zh/register) · [查看价格](https://www.hiapi.ai/zh/pricing) · [文档](https://docs.hiapi.ai)
 
 ### 从这里开始
 

@@ -101,5 +101,6 @@ HiAPI 是为开发者打造的 AI API 平台。图像、视频、音乐和文本
 | Repository | Status |
 | --- | --- |
 | [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) | Available |
+| [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) | Available |
 
 Only public, ready-to-use repositories are listed here.

@@ -12,6 +12,7 @@ HiAPI is an AI API platform built for developers. Images, video, music, and text
 
 | What you need | Repository / Link | Use it for |
 | --- | --- | --- |
+| HiAPI skills directory | [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) | Choose the right HiAPI skill for image and video generation in AI Agents |
 | GPT Image 2 in AI Agents | [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) | Generate images from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
 | Seedance 2.0 in AI Agents | [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) | Generate videos from text or animate images from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
 | HappyHorse 1.0 in AI Agents | [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill) | Generate text-to-video clips from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
@@ -54,6 +55,7 @@ curl https://api.hiapi.ai/v1/chat/completions \
 
 HiAPI can be used directly from AI Agent tools:
 
+- **Skills directory:** start with [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) when you want to choose from all public HiAPI skills.
 - **Skill:** install [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) when you specifically want GPT Image 2 image generation.
 - **Skill:** install [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) when you specifically want Seedance 2.0 text-to-video or image-to-video generation.
 - **Skill:** install [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill) when you specifically want HappyHorse 1.0 text-to-video generation.
@@ -88,6 +90,7 @@ HiAPI 是为开发者打造的 AI API 平台。图像、视频、音乐和文本
 
 | 你需要什么 | 仓库 / 链接 | 用途 |
 | --- | --- | --- |
+| HiAPI skills 总目录 | [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) | 为 AI Agent 选择合适的 HiAPI 图像和视频生成 skill |
 | 在 AI Agent 中使用 GPT Image 2 | [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) | 在 Codex、Claude Code、OpenCode、OpenClaw 等 Agent 中生成图片 |
 | 在 AI Agent 中使用 Seedance 2.0 | [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) | 在 Codex、Claude Code、OpenCode、OpenClaw 等 Agent 中生成视频，或让图片动起来 |
 | 在 AI Agent 中使用 HappyHorse 1.0 | [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill) | 在 Codex、Claude Code、OpenCode、OpenClaw 等 Agent 中生成文生视频 |
@@ -97,6 +100,7 @@ HiAPI 是为开发者打造的 AI API 平台。图像、视频、音乐和文本
 
 ### AI Agent 接入
 
+- **Skills 总目录：** 如果想先选择 HiAPI 公开 skill，查看 [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills)。
 - **Skill：** 如果只需要 GPT Image 2 图像生成，安装 [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill)。
 - **Skill：** 如果只需要 Seedance 2.0 文生视频或图生视频，安装 [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)。
 - **Skill：** 如果只需要 HappyHorse 1.0 文生视频，安装 [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill)。
@@ -108,6 +112,7 @@ HiAPI 是为开发者打造的 AI API 平台。图像、视频、音乐和文本
 
 | Repository | Status |
 | --- | --- |
+| [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) | Official HiAPI AI Agent skills directory |
 | [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) | GPT Image 2 image generation skill |
 | [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) | Seedance 2.0 video generation skill |
 | [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill) | HappyHorse 1.0 text-to-video skill |

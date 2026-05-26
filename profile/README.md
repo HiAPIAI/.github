@@ -6,6 +6,8 @@ HiAPI is an AI API platform for developers and AI Agents. Use one key to call im
 
 [Website](https://www.hiapi.ai) · [Get API Key](https://www.hiapi.ai/en/register) · [Pricing](https://www.hiapi.ai/en/pricing) · [Docs](https://docs.hiapi.ai) · [Remote MCP](https://docs.hiapi.ai/for-ai/)
 
+> **HiAPI Matrix:** 🎨 [Image Prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) · 🎬 [Video Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · 🛠️ [Agent Skills](https://github.com/HiAPIAI/hiapi-skills) · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) · 📖 [API Docs](https://docs.hiapi.ai)
+
 **Latest:** 🎬 [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) — 160+ Seedance 2.0 video recipes · 🎨 [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) — 100+ GPT Image 2 cases · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) at `mcp.hiapi.ai`.
 
 ---

@@ -8,7 +8,7 @@ HiAPI is an AI API platform for developers and AI Agents. Use one key to call im
 
 > **HiAPI Matrix:** 🎨 [Image Prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) · 🎬 [Video Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · 🛠️ [Agent Skills](https://github.com/HiAPIAI/hiapi-skills) · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) · 📖 [API Docs](https://docs.hiapi.ai)
 
-**Latest:** 🎬 [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) — 160+ Seedance 2.0 video recipes · 🎨 [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) — 100+ GPT Image 2 cases · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) at `mcp.hiapi.ai`.
+**Latest:** 🎬 [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) — direct briefs and sources into runnable Seedance/HappyHorse prompts · 🎬 [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) — 160+ Seedance 2.0 video recipes · 🎨 [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) — 100+ GPT Image 2 cases · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) at `mcp.hiapi.ai`.
 
 ---
 
@@ -24,6 +24,7 @@ HiAPI is an AI API platform for developers and AI Agents. Use one key to call im
 | GPT Image 2 in AI Agents | [hiapi-gpt-image-2-skill](https://github.com/HiAPIAI/hiapi-gpt-image-2-skill) | Generate images from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
 | Seedance 2.0 in AI Agents | [hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) | Generate videos from text or animate images from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
 | HappyHorse 1.0 in AI Agents | [hiapi-happyhorse-1-0-video-skill](https://github.com/HiAPIAI/hiapi-happyhorse-1-0-video-skill) | Generate text-to-video clips from Codex, Claude Code, OpenCode, OpenClaw, and similar agents |
+| Video Prompt Director in AI Agents | [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) | Turn one-line briefs, links, or topics into directed, scene-by-scene Seedance/HappyHorse prompts before generation |
 | API key | [HiAPI API Key](https://www.hiapi.ai/en/register) | Create the key used by SDKs, agents, and MCP clients |
 
 ---

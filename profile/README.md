@@ -8,7 +8,7 @@ HiAPI is an AI API platform for developers and AI Agents. Use one key to call im
 
 > **HiAPI Matrix:** 🎨 [Image Prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) · 🎬 [Video Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · 🛠️ [Agent Skills](https://github.com/HiAPIAI/hiapi-skills) · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) · 📖 [API Docs](https://docs.hiapi.ai)
 
-**Latest:** 🎬 [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) — direct briefs and sources into runnable Seedance/HappyHorse prompts · 🎬 [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) — 160+ Seedance 2.0 video recipes · 🎨 [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) — 100+ GPT Image 2 cases · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) at `mcp.hiapi.ai`.
+**Latest:** 📹 [realistic-video-prompting](https://github.com/HiAPIAI/realistic-video-prompting) — model-agnostic phone/DV/VHS/documentary prompt preflight and executor handoff · 🔗 [hiapi-realistic-video-workflow](https://github.com/HiAPIAI/hiapi-realistic-video-workflow) — optional Seedance two-skill shortcut · 🎬 [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) — direct briefs and sources into runnable Seedance/HappyHorse prompts · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) at `mcp.hiapi.ai`.
 
 ---
 
@@ -59,6 +59,8 @@ The same `POST /v1/tasks` shape works for every model — swap `model` and `inpu
 | Image prompt gallery | [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) | Output-backed GPT Image 2 recipes you can copy and adapt |
 | Video prompt gallery | [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) | 160+ Seedance 2.0 recipes across product, social, cinematic, image-to-video |
 | Agent Skills | [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) | Generate images/videos by just asking Claude Code, Codex, or OpenClaw |
+| Realistic video prompts | [realistic-video-prompting](https://github.com/HiAPIAI/realistic-video-prompting) | Preflight phone, DV, VHS, Super 8, GoPro, CCTV, documentary, and anti-AI prompts for any video model |
+| Realistic + Seedance bundle | [hiapi-realistic-video-workflow](https://github.com/HiAPIAI/hiapi-realistic-video-workflow) | Optional shortcut that installs the model-agnostic prompt Skill and Seedance 2.0 executor together |
 | Remote MCP | `https://mcp.hiapi.ai/mcp` | One connection that gives MCP clients every HiAPI image/video tool |
 | API docs | [docs.hiapi.ai](https://docs.hiapi.ai) | Model parameters, pricing, and integration guides |
 
@@ -70,6 +72,9 @@ The same `POST /v1/tasks` shape works for every model — swap `model` and `inpu
 
 ```bash
 npx -y github:HiAPIAI/hiapi-gpt-image-2-skill -y
+
+# Optional Seedance shortcut: realistic prompt preflight + Seedance 2.0
+npx -y github:HiAPIAI/hiapi-realistic-video-workflow -y
 ```
 
 All skills and install commands: [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) · [Skills guide](https://docs.hiapi.ai/skills/)
@@ -101,7 +106,7 @@ HiAPI 是面向开发者和 AI Agent 的 AI API 平台。图像、视频、音�
 
 [官网](https://www.hiapi.ai/zh) · [免费获取 API Key](https://www.hiapi.ai/zh/register) · [查看价格](https://www.hiapi.ai/zh/pricing) · [文档](https://docs.hiapi.ai/zh/) · [Remote MCP](https://docs.hiapi.ai/zh/for-ai/)
 
-**最新动态：** 🎬 [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) — 把一句话想法变成可直接生成的视频提示词 · 🎬 [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) — 160+ Seedance 2.0 视频配方 · 🎨 [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) — 100+ GPT Image 2 案例 · 🤖 [Remote MCP](https://docs.hiapi.ai/zh/for-ai/) 已上线 `mcp.hiapi.ai`。
+**最新动态：** 📹 [realistic-video-prompting](https://github.com/HiAPIAI/realistic-video-prompting) — 面向所有视频模型的手机、DV、VHS、纪录片与去 AI 感提示词核对和执行器交接 · 🔗 [hiapi-realistic-video-workflow](https://github.com/HiAPIAI/hiapi-realistic-video-workflow) — 可选的 Seedance 双 Skill 快捷安装 · 🎬 [hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) — 把一句话想法变成可直接生成的视频提示词 · 🤖 [Remote MCP](https://docs.hiapi.ai/zh/for-ai/) 已上线 `mcp.hiapi.ai`。
 
 ### 快速上手
 
@@ -131,6 +136,8 @@ curl -X POST https://api.hiapi.ai/v1/tasks \
 | 图片提示词库 | [awesome-gpt-image-2-prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) | 带真实效果图的 GPT Image 2 配方，可直接复制改写 |
 | 视频提示词库 | [awesome-seedance-2-0-prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) | 160+ Seedance 2.0 配方，涵盖产品、社媒、电影感、图生视频 |
 | Agent Skills | [hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) | 在 Claude Code、Codex、OpenClaw 里对话即可生成图片视频 |
+| 真实感视频提示词 | [realistic-video-prompting](https://github.com/HiAPIAI/realistic-video-prompting) | 为所有视频模型核对手机、DV、VHS、Super 8、GoPro、监控、纪录片和去 AI 感提示词 |
+| 真实感 + Seedance 组合安装 | [hiapi-realistic-video-workflow](https://github.com/HiAPIAI/hiapi-realistic-video-workflow) | 可选快捷方式：一起安装通用提示词 Skill 和 Seedance 2.0 执行 Skill |
 | Remote MCP | `https://mcp.hiapi.ai/mcp` | MCP 客户端连接一次即获得全部 HiAPI 图像/视频工具 |
 | API 文档 | [docs.hiapi.ai](https://docs.hiapi.ai/zh/) | 模型参数、价格和接入指南 |
 
@@ -140,6 +147,9 @@ curl -X POST https://api.hiapi.ai/v1/tasks \
 
 ```bash
 npx -y github:HiAPIAI/hiapi-gpt-image-2-skill -y
+
+# 可选 Seedance 快捷安装：真实感提示词核对 + Seedance 2.0
+npx -y github:HiAPIAI/hiapi-realistic-video-workflow -y
 ```
 
 全部技能与安装命令：[hiapi-skills](https://github.com/HiAPIAI/hiapi-skills) · [技能指南](https://docs.hiapi.ai/zh/skills/)
